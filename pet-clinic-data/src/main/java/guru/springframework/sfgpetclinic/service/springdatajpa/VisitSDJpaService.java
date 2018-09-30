@@ -33,6 +33,10 @@ public class VisitSDJpaService implements VisitService {
 
     @Override
     public Visit save(Visit object) {
+        System.out.println("###############");
+        System.out.println("###############");
+        System.out.println("###############");
+        System.out.println("###############");
         return visitRepository.save(object);
     }
 
